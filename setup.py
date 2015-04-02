@@ -20,6 +20,7 @@ install_requires = [
     'django-compressor>=1.3',
     'beautifulsoup4',
     'django-argonauts>=1.0.0',
+    'Django>=1.6',
 ]
 
 # Markdown stops support for Python 2.6 in version 2.5
