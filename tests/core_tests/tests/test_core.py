@@ -262,13 +262,14 @@ class TestCore(RootNodeTestCase):
                              attributes)
 
 
+class Test(Content):
+    pass
+
 class TestRegistry(RootNodeTestCase):
     def setUp(self):
         from widgy import Registry
         self.registry = Registry()
 
-        class Test(Content):
-            pass
         self.cls = Test
 
     def test_register(self):
