@@ -118,3 +118,7 @@ WIDGY_MEZZANINE_SITE = 'core_tests.widgy_config.widgy_site'
 DAISYDIFF_JAR_PATH = os.path.join(
     os.path.dirname(__file__), '..', 'bin', 'daisydiff', 'daisydiff.jar',
 )
+
+SOUTH_MIGRATION_MODULES = {
+    'core_tests': 'ignore',
+}
