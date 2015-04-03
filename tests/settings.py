@@ -34,7 +34,6 @@ INSTALLED_APPS = [
     "argonauts",
     # tests modules
     "core_tests",
-    "proxy_gfk",
     "utilstests",
     # tests/core_tests/models::ReviewedVersionedPage has an fk to
     # `review_queue.ReviewedVersionTracker`.  Until that test is moved into a
